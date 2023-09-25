@@ -1,0 +1,15 @@
+.customRadio {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #000000;
+  border-radius: 50%; /* Makes the radio button round */
+  outline: none; /* Removes the outline when focused */
+  width: 20px; /* Adjust the size as needed */
+  height: 20px; /* Adjust the size as needed */
+}
+
+/* Style the inner part of the radio button when checked */
+.customRadio:checked {
+  background-color: #2e7ff1;
+}

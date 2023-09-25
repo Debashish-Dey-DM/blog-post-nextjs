@@ -1,0 +1,38 @@
+.bgRadialGrad {
+  background: rgba(43, 121, 211, 0.7);
+  filter: blur(30px);
+  top: 25px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(-0.404deg);
+  flex-shrink: 0;
+}
+
+.mobileBgRadialGrad {
+  background: rgba(43, 121, 211, 0.7);
+  filter: blur(35px);
+  width: 50px;
+  height: 40px;
+  transform: rotate(-0.404deg);
+  flex-shrink: 0;
+}
+
+.bgRadialGrad2 {
+  /* height: 200px; */
+  position: relative;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.bgRadialGrad2::before {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  height: 70%;
+  width: 90%;
+  background-image: linear-gradient(93.51deg, #8da7c6 1.84%, #dbecff 99.18%);
+  filter: blur(150px);
+  z-index: -1;
+  content: "";
+}

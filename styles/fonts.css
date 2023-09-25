@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'plain-ultralight';
+  src: url('/fonts/Plain-Ultralight.otf') format('opentype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'plain-light';
+  src: url('/fonts/Plain-Light.otf') format('opentype');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'plain-regular';
+  src: url('/fonts/Plain-Regular.otf') format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'plain-medium';
+  src: url('/fonts/Plain-Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'plain-semibold';
+  src: url('/fonts/Plain-Regular.otf') format('opentype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'plain-bold';
+  src: url('/fonts/Plain-Regular.otf') format('opentype');
+  font-weight: 600;
+}
+
+.plain-ultralight {
+  font-family: 'plain-ultralight';
+  font-weight: 100;
+}
+
+.plain-light {
+  font-family: 'plain-light';
+  font-weight: 200;
+}
+
+.plain-regular {
+  font-family: 'plain-regular';
+  font-weight: 300;
+}
+
+.plain-ultralight {
+  font-family: 'plain-medium';
+  font-weight: 400;
+}
+
+.plain-light {
+  font-family: 'plain-semibold';
+  font-weight: 500;
+}
+
+.plain-regular {
+  font-family: 'plain-bold';
+  font-weight: 600;
+}

@@ -1,0 +1,147 @@
+/* Blockchain */
+
+.landing {
+  /* height: 200px; */
+  position: relative;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.landing::before {
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(93.51deg, #8da8c6 1.84%, #dbecff 99.18%);
+  filter: blur(220px);
+  z-index: -1;
+  content: "";
+}
+
+.serviceRadialGrad {
+  border-radius: 179.761px;
+  background: rgba(43, 121, 211, 0.7);
+  filter: blur(60px);
+  width: 100.761px;
+  height: 80.513px;
+  transform: rotate(-0.404deg);
+  flex-shrink: 0;
+}
+
+/* DOA */
+.landingDao {
+  /* height: 200px; */
+  position: relative;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.landingDao::before {
+  position: absolute;
+  left: -10%;
+  top: -40%;
+  height: 100%;
+  width: 300px;
+  background-image: linear-gradient(
+    93.51deg,
+    rgba(54, 90, 210, 0.45) 1.84%,
+    rgba(54, 90, 210, 0.45) 99.18%
+  );
+  filter: blur(170px);
+  z-index: -1;
+  content: "";
+}
+
+.solutionDao {
+  /* height: 200px; */
+  position: relative;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.solutionDao::before {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  height: 300px;
+  width: 300px;
+  background-image: linear-gradient(
+    93.51deg,
+    rgba(54, 90, 210, 0.45) 1.84%,
+    rgba(54, 90, 210, 0.45) 99.18%
+  );
+  filter: blur(200px);
+  z-index: -1;
+  content: "";
+}
+
+.blockchainIndustryGrad {
+  position: relative;
+  z-index: 1;
+}
+
+.blockchainIndustryGrad::before {
+  position: absolute;
+  height: 120%;
+  width: 120%;
+  background-image: linear-gradient(
+    93.51deg,
+    rgba(43, 121, 211, 0.2) 1.84%,
+    rgba(43, 121, 211, 0.2) 99.18%
+  );
+  filter: blur(100px);
+  z-index: -1;
+  content: "";
+}
+
+.daoServiceRadialGrad {
+  box-shadow: 0px 46.23366165161133px 92.46732330322266px 0px rgba(43, 121, 211, 0.2);
+}
+
+.gradService1 {
+  width: 280px;
+  height: 320px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #2b79d3, rgba(0, 0, 0, 0)) 1 100%;
+}
+.gradService2 {
+  width: 280px;
+  height: 320px;
+  padding: 15px;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #2b79d3, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .solutionDao {
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .solutionDao::before {
+    position: absolute;
+    left: 0%;
+    top: 15%;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(
+      93.51deg,
+      rgba(54, 90, 210, 0.45) 1.84%,
+      rgba(54, 90, 210, 0.45) 99.18%
+    );
+    filter: blur(200px);
+    z-index: -1;
+    content: "";
+  }
+}

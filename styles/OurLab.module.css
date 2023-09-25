@@ -1,0 +1,19 @@
+.landing {
+    /* height: 200px; */
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  
+  .landing::before {
+    position: absolute;
+    left: -10%;
+    top: 20%;
+    height: 70%;
+    width: 100%;
+    background-image: linear-gradient(93.51deg, #8da8c6 1.84%, #dbecff 99.18%);
+    filter: blur(120px);
+    z-index: -1;
+    content: "";
+  }
+  

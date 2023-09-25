@@ -1,0 +1,125 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  /* font-family: BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+.primaryContainer {
+  padding: 0 4rem;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* a background color class*/
+.bg-test {
+  background: radial-gradient(50% 50% at 50% 50%,
+      rgba(43, 121, 211, 0.5) 0%,
+      rgba(43, 121, 211, 0) 100%);
+  filter: blur(281.5px);
+}
+.dclGlobalBoxShadowSolutions{
+  box-shadow: 0px 20.23366165161133px 56.46732330322266px 0px rgba(43, 121, 211, 0.324);
+}
+
+.dclGlobalBoxShadowSolutionsMobile {
+  box-shadow: 0px 46.23366165161133px 92.46732330322266px 0px rgba(43, 121, 211, 0.324);
+}
+
+.dclGlobalBoxShadow:hover {
+  box-shadow: 0px 46.23366165161133px 92.46732330322266px 0px rgba(43, 121, 211, 0.126);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: black;
+    background: white;
+  }
+}
+
+
+.custom-quill {
+  border-width: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 25px;
+}
+
+.custom-quill .ql-container,
+.custom-quill .ql-editor {
+  border: none !important;
+  color: #000000 !important;
+}
+
+.custom-quill .ql-toolbar {
+  border: none !important;
+  border-bottom: 1px solid #a09f9f50 !important;
+  color: #cfcece !important;
+  background: #ffffff;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+
+:root {
+  --primary: #DBECFF;
+  --secondary: #2B79D3;
+  --tertiary: #2b79d3ab;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 1px solid var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
+}
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+
+.tagcloud {
+  display: inline-block;
+}
+
+
+.tagcloud--item {
+  color: #298dff;
+  text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+  color: #ff6347;
+}
